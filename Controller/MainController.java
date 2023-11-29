@@ -35,6 +35,12 @@ public class MainController {
                 } else {
                     System.out.println("Hay " + nCars + " coches");
                 }
+                /*if (nCars == 0) {
+                    System.out.println("No hay coches");
+                }else {
+                    System.out.println("Hay " + nCars + " coche"+
+                            (nCars>1?"s":""));
+                }*/
                 break;
             case 3:
                 if (parking.isFull()) {
